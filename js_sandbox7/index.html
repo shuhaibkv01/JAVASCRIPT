@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <h2>
+        Dynamically Typed Language
+    </h2>
+
+    <p1>
+        <ul>
+            <li>
+                Types are associated with values not variables
+            </li>
+
+            <li>
+                The same variables can hold multiple values
+            </li>
+
+            <li>
+                We do not need to specify types
+            </li>
+
+            <li>
+                Most other languages are statically typed
+            </li>
+
+            <li>
+
+                There are subsets of JS and addons to allow static typing(TypeScript, Flow)
+            </li>
+
+        </ul>
+
+    </p1>
+
+    <button onclick="fnPrimitives()">Get List of Primitives</button>
+
+    <button onclick="fnReference()">Get List of Reference Type</button>
+
+
+    <h2 id="primitives" hidden=true>
+        <p>
+            --------Primitive Types ---------
+            <ol>
+                <li>
+                    String
+                </li>
+                <li>
+                    Number
+                </li>
+                <li>
+                    Boolean
+                </li>
+                <li>
+                    Null
+                </li>
+                <li>
+                    Undefined
+                </li>
+                <li>
+                    Symboles (ES6)
+                </li>
+            </ol>
+        </p>
+
+    </h2>
+
+    <h2 id="reference" hidden=true>
+        --------Reference Type ---------
+        <ol>
+            <li>
+                Arrays
+            </li>
+            <li>
+                Objects literals
+            </li>
+            <li>
+                Fucntions
+            </li>
+            <li>
+                Dates
+            </li>
+            <li>
+                Anything Else
+            </li>
+
+        </ol>
+    </h2>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

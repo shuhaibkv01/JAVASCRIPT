@@ -1,0 +1,14 @@
+#main-header {
+   background-color:#F31445; 
+  padding: 30px 10px;
+  overflow: hidden;
+  height: 50%;
+}
+
+#shop-name {
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-style: italic;
+   
+}
